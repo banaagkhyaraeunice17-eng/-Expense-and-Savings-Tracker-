@@ -50,12 +50,6 @@ People may find it difficult to keep track of where their money comes from and w
 | Gagalac, Alexander C. | OOP Design and Testing |
 | Tamaray, Jhanine A. | Quality Assurance / Presentation |
 
-## 9. OOP Concepts Demonstrated
-- **Encapsulation:** Transaction and savings-goal fields are private and accessed through public methods.
-- **Abstraction:** `Transaction` is an abstract class that defines shared transaction information and the abstract `getType()` method.
-- **Inheritance:** `Income` and `Expense` extend `Transaction` and reuse its common fields and methods.
-- **Polymorphism:** `Income` and `Expense` override `getType()`. The tracker processes them through `Transaction` references and invokes the correct implementation.
-
 ## Source Code Classes
 All Java source files are located in `src/`. The project uses the default package, so keep these files together and do not add package declarations unless you update the compile instructions too.
 
